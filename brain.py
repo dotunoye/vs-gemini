@@ -1,8 +1,15 @@
 import os
 import sys
 from google import genai
+from dotenv import load_dotenv
 
-API_KEY = ""
+load_dotenv()
+
+API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not API_KEY:
+    print("Error: API key not found. Check your .env file")
+    sys.exit()
 
 def main():
 
