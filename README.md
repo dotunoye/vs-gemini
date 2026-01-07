@@ -10,7 +10,7 @@ Built for engineers who need answers without leaving the terminal.
 ## ⚡ Features
 
 * **Zero-Context Switching:** Get answers directly in your terminal while coding.
-* **Global Access:** Works from any directory via the `ask` alias.
+* **Global Access:** Works from any directory via the `hey` alias.
 * **Smart & Fast:** Uses the `google-genai` SDK for low-latency responses.
 * **Secure:** API keys are protected via `.env` isolation.
 * **Mechatronics Ready:** Capable of solving physics formulas and generating Python scripts instantly.
