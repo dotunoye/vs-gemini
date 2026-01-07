@@ -19,7 +19,7 @@ def main():
 
     user_query = " ".join(sys.argv[1:]) 
 
-    print(f"\nThinking about: {user_query}...\n")
+    print(f"\nThinking... {user_query}...\n")
 
     try:
         client = genai.Client(api_key = API_KEY)
